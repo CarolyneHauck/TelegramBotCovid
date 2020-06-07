@@ -1,0 +1,9 @@
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Release/TelegramBotCovid.exe.config
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Release/TelegramBotCovid.exe
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Release/Newtonsoft.Json.dll
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Release/Telegram.Bot.dll
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Release/Newtonsoft.Json.xml
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Release/Telegram.Bot.xml
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Release/TelegramBotCovid.exe.config
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Release/TelegramBotCovid.csproj.CopyComplete
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Release/TelegramBotCovid.exe

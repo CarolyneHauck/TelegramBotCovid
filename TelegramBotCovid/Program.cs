@@ -25,26 +25,34 @@ namespace TelegramBotCovid
                 if(e.Message.Text != null && e.Message.Text != "Total de casos")
                 {
                     var url = string.Format("https://covid19-brazil-api.now.sh/api/report/v1/brazil/uf/{0}", e.Message.Text);
-                    var dados = HttpClient.Get(url);
 
-                    dynamic jsonTratado = JsonConvert.DeserializeObject(dados);
-
-                    if (jsonTratado["state"] != null)
-                    {
-                        var state = jsonTratado.state;
-                        var cases = jsonTratado.cases;
-                        var deaths = jsonTratado.deaths;
-                        var suspects = jsonTratado.suspects;
-                        var datetime = jsonTratado.datetime;
-
-                        Bot.SendTextMessageAsync(e.Message.Chat.Id, string.Format("Estado:{0}\n\rCasos: {1}\n\rMortes: {2}\n\rSuspeitos: {3}\n\rData: {4}", state, cases, deaths, suspects, datetime));
-                    }
-                    if (jsonTratado["error"] != null)
+                    if (e.Message.Text.Contains("/"))
                     {
                         Bot.SendTextMessageAsync(e.Message.Chat.Id, string.Format("Informe a sigla do estado que deseja verificar os casos de COVID ou caso queira verificar o total de casos no país digite \"Total de casos\""));
                     }
+                    else
+                    {
+                        var dados = HttpClient.Get(url);
+
+                        dynamic jsonTratado = JsonConvert.DeserializeObject(dados);
+
+                        if (jsonTratado["state"] != null)
+                        {
+                            var state = jsonTratado.state;
+                            var cases = jsonTratado.cases;
+                            var deaths = jsonTratado.deaths;
+                            var suspects = jsonTratado.suspects;
+                            var datetime = jsonTratado.datetime;
+
+                            Bot.SendTextMessageAsync(e.Message.Chat.Id, string.Format("Estado:{0}\n\rCasos: {1}\n\rMortes: {2}\n\rSuspeitos: {3}\n\rData: {4}", state, cases, deaths, suspects, datetime));
+                        }
+                        if (jsonTratado["error"] != null)
+                        {
+                            Bot.SendTextMessageAsync(e.Message.Chat.Id, string.Format("Informe a sigla do estado que deseja verificar os casos de COVID ou caso queira verificar o total de casos no país digite \"Total de casos\""));
+                        }
+                    }
                 }
-                else if(e.Message.Text == "Total de casos" || e.Message.Text == "casos")
+                else if(e.Message.Text == "Total de casos")
                 {
                     var dados = HttpClient.Get("https://covid19-brazil-api.now.sh/api/report/v1/brazil");
 
@@ -63,6 +71,10 @@ namespace TelegramBotCovid
                 {
                     Bot.SendTextMessageAsync(e.Message.Chat.Id, string.Format("Informe a sigla do estado que deseja verificar os casos de COVID ou caso queira verificar o total de casos no país digite \"Total de casos\""));
                 }
+            }
+            else
+            {
+                Bot.SendTextMessageAsync(e.Message.Chat.Id, string.Format("Informe a sigla do estado que deseja verificar os casos de COVID ou caso queira verificar o total de casos no país digite \"Total de casos\""));
             }
         }
     }
