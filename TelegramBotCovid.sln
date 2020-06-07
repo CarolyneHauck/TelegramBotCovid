@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotCovid", "TelegramBotCovid\TelegramBotCovid.csproj", "{1D69E2DC-0EDB-42F0-A497-56E174C5913A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D69E2DC-0EDB-42F0-A497-56E174C5913A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{1D69E2DC-0EDB-42F0-A497-56E174C5913A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{1D69E2DC-0EDB-42F0-A497-56E174C5913A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{1D69E2DC-0EDB-42F0-A497-56E174C5913A}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

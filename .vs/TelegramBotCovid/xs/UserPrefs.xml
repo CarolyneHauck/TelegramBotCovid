@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{1D69E2DC-0EDB-42F0-A497-56E174C5913A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelegramBotCovid/HttpClient.cs">
+    <Files>
+      <File FileName="TelegramBotCovid/Program.cs" Line="54" Column="22" />
+      <File FileName="TelegramBotCovid/HttpClient.cs" Line="28" Column="103" />
+      <File FileName="../../Library/Caches/VisualStudio/8.0/Symbols/mono/mono/07c23f2ca43c01651fca00644e6638dd0050e4cf/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs" Line="157" Column="1" />
+      <File FileName="TelegramBotCovid/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TelegramBotCovid" expanded="True">
+            <Node name="TelegramBotCovid" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="HttpClient.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.TelegramBotCovid PreferredExecutionTarget="MonoDevelop.Default" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/carolyne.carreira/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/07c23f2ca43c01651fca00644e6638dd0050e4cf</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

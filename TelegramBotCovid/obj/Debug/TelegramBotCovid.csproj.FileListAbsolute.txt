@@ -1,0 +1,11 @@
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/TelegramBotCovid.exe.config
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/TelegramBotCovid.exe
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/TelegramBotCovid.pdb
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/Newtonsoft.Json.dll
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/Telegram.Bot.dll
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/Newtonsoft.Json.xml
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/bin/Debug/Telegram.Bot.xml
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Debug/TelegramBotCovid.exe.config
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Debug/TelegramBotCovid.csproj.CopyComplete
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Debug/TelegramBotCovid.exe
+/Users/carolyne.carreira/Projects/TelegramBotCovid/TelegramBotCovid/obj/Debug/TelegramBotCovid.pdb
